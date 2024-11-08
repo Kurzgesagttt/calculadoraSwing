@@ -10,7 +10,7 @@ public class Calculadora extends JFrame{
 	public Calculadora() {
 		organizarLayout();
 		
-		setSize(232,322);
+		setSize(232,321);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		setVisible(true);
@@ -20,7 +20,7 @@ public class Calculadora extends JFrame{
 		setLayout(new BorderLayout());
 		
 		Display display = new Display();
-		display.setPreferredSize(new Dimension(233,60));
+		display.setPreferredSize(new Dimension(233,56));
 		add(display,BorderLayout.NORTH);
 		
 		Teclado teclado = new Teclado();
